@@ -100,27 +100,26 @@
       h1 {
       font-family: 'Dancing Script', cursive;
       font-weight: 500;
-      font-size: 2em;
+      font-size: 4em;
       margin: 0;
-      width: 25%;
+      width: 50%;
       text-align: center;
       }
        
       h2 {
        font-family: 'Dancing Script', cursive;
        font-weight: 500;
-       font-size: 1.5em;
+       font-size: 3.5em;
        margin: 0;
-       width: 25%;
+       padding: 0 20px;
        text-align: center;
       }
        
       p {
-        font-size: 1em;
+        font-size: 2em;
         line-height: 1.25;
-        width: 100%;
         text-align: center;
-        width: 80%;
+        width: 90%;
       }
       
       figure {
@@ -128,11 +127,13 @@
           justify-content: space-around;
           align-items: center;
           flex-flow: row wrap;
+          margin: 10px;
       }
     
       img {
-        width: 30%;
-        height: 30%;
+        width: 20%;
+        height: 20%;
+        margin: 5px;
         
       }
       
@@ -242,8 +243,8 @@
     /* Tablet */
 
     img {
-        height: 30%;
-        width: 30%;
+        height: 40%;
+        width: 40%;
         max-height: 500px;
     }
   }
@@ -251,9 +252,7 @@
   @media only screen and (min-width: 1200px) {
     /* Tablet */
 
-    img {
-        max-height: 500px;
-    }
+  
   }
   
   @media print,
